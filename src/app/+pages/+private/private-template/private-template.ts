@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-private-template',
-  imports: [],
+  imports: [RouterLink, RouterOutlet],
   templateUrl: './private-template.html',
   styleUrl: './private-template.scss',
 })

@@ -1,0 +1,32 @@
+#banner{
+    background-color: #ea84c9;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 3px 4px 4px black;
+    text-align: center;
+    padding: 1.5em;
+}
+#menu{
+    display: flex;
+    padding: 0.5em;
+    background-color: #eabaf6;
+    gap: 0.3em;
+    a{
+        text-decoration: none;
+        color:white;
+        background-color:#e574bc;
+        border-radius: 0.2em;
+        padding: 0.3em;
+        min-width: 80px;
+        text-align: center;
+
+    }
+    a:hover{
+        background-color: #f9b4ed;
+        color: black;
+    }
+    .divider{
+        flex: 1 1 auto;
+    }
+} 

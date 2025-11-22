@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Persian;
+    src: url(/fonts/nassim-bold.woff);
+}
+body{
+    margin: 0;
+    background-color: rgb(218, 218, 218);
+}
+*{
+    font-family: Persian;
+}
